@@ -3,8 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@rematch/core": "^1.1.0",
+    "@rematch/persist": "^1.1.6",
+    "history": "^4.9.0",
+    "localforage": "^1.7.3",
     "react": "^16.8.5",
-    "react-dom": "^16.8.5"
+    "react-dom": "^16.8.5",
+    "react-redux": "^7.0.1",
+    "react-router-dom": "^5.0.0",
+    "redux-persist": "^5.10.0"
   },
   "scripts": {
     "start": "PORT=1989 react-app-rewired start",
